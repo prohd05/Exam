@@ -1,0 +1,14 @@
+.ft{
+    height: 200px;
+    max-height: 200px; 
+    background-color: black;
+}
+
+.mm{
+    background-color: black;
+}
+
+.bottom{
+    text-align: start;
+    margin-left: 20px;
+}

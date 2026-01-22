@@ -1,0 +1,20 @@
+
+
+.back{
+    height:700px;
+    max-height: 700px;
+    width: 1200px;
+    max-width: 1200px;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:image-set("../assets/background.jpg");
+}
+
+.end{
+    width: 1200px;
+    max-width: 1200px;
+    background-color: black;
+}

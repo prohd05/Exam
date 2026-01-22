@@ -1,0 +1,29 @@
+.links li{
+    
+    display: inline;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+
+.top{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    max-height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height:50px;
+}
+
+li{
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: underline;
+}
