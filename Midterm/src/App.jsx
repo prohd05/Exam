@@ -14,7 +14,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
 
   return (
-    <div className='Big'>
+    <>
       <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -26,7 +26,7 @@ function App() {
       </BrowserRouter>
 
       <Footer/>
-    </div>
+    </>
   )
 }
 
