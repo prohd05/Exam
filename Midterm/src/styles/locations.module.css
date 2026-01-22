@@ -1,10 +1,7 @@
 .locs{
-    height:500px;
-    max-height: 500px;
-    margin-top: 0px;
-
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .loc{
@@ -13,8 +10,7 @@
     max-width: 300px;
     margin-top: 0px;
     opacity: 1;
-
-    height: fit-content;
+    height: 250px;
 }
 
 .m{
@@ -27,5 +23,12 @@
 }
 
 .to{
+    padding-top:1%;
+}
+
+.bi{
+    height:500px;
+    margin-top: 0px;
     background-image: image-set("../assets/loc-bg.jpg");
+    background-position:right;
 }
