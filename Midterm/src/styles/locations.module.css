@@ -1,7 +1,6 @@
 .locs{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .loc{
@@ -27,6 +26,7 @@
 }
 
 .bi{
+    min-width:1000px;
     height:500px;
     margin-top: 0px;
     background-image: image-set("../assets/loc-bg.jpg");

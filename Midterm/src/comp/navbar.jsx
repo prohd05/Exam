@@ -5,10 +5,10 @@ function navbar(){
     return(
         <>
         <nav className={styles.top}>
-            <img src={Logo} className={styles.logo}/>
+            <Link to='/'> <img src={Logo} className={styles.logo}/> </Link>
 
             <ul className={styles.links}>
-                <Link to='/'> <li> Our Mission </li> </Link>
+                <Link to='/mission'> <li> Our Mission </li> </Link>
                 <Link to='/tea'> <li> Featured Tea </li> </Link>
                 <Link to='/locations'> <li> Locations </li> </Link>
             </ul>

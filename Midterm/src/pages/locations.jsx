@@ -6,7 +6,6 @@ function locations(){
         <>
         <div className={styles.bi}> 
             <div className={styles.to}> 
-
                 <h1 className={styles.m}> Locations </h1>
                 <div className={styles.locs}> 
                     <div className={styles.loc}>

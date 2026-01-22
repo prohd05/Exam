@@ -6,6 +6,7 @@ import Hero from './pages/hero.jsx'
 import Locations from './pages/locations.jsx'
 import Tea from './pages/tea.jsx'
 import Footer from './comp/footer.jsx'
+import Main from './pages/main.jsx'
 
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
@@ -13,18 +14,19 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <div className='Big'>
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Hero/>}/>
+        <Route path='/' element={<Main/>}/>
+          <Route path='/mission' element={<Hero/>}/>
           <Route path='/locations' element={<Locations/>}/>
           <Route path='/tea' element={<Tea/>}/>
         </Routes>
       </BrowserRouter>
 
       <Footer/>
-    </>
+    </div>
   )
 }
 

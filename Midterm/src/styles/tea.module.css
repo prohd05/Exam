@@ -12,6 +12,9 @@
 .teas{
     width: 1000px;
     max-width: 1000px; 
+    display: grid;
+    grid-template-areas: 'a1 a2 a3';
+    place-items: center;
 }
 
 p{
